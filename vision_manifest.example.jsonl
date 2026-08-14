@@ -1,0 +1,4 @@
+{"image":"/absolute/path/empty_litter_box.jpg","ground_truth":{"has_cat":false,"has_cat_waste":false,"cat_breed":null},"group":"scene:no_cat:no_waste","source":"self-collected"}
+{"image":"/absolute/path/cat_using_box.jpg","ground_truth":{"has_cat":true,"has_cat_waste":false,"cat_breed":"British Shorthair"},"group":"scene:cat:no_waste","source":"self-collected"}
+{"image":"/absolute/path/litter_with_feces.jpg","ground_truth":{"has_cat":false,"has_cat_waste":true,"cat_breed":null},"group":"scene:no_cat:waste","source":"self-collected"}
+{"image":"/absolute/path/cat_and_waste.jpg","ground_truth":{"has_cat":true,"has_cat_waste":true,"cat_breed":"Siamese"},"group":"scene:cat:waste","source":"self-collected"}

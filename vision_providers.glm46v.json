@@ -1,0 +1,17 @@
+[
+  {
+    "name": "glm",
+    "model": "glm-4.6v",
+    "api_url": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "api_key_env": "ZHIPU_API_KEY",
+    "image_encoding": "bare_base64",
+    "json_mode": true,
+    "input_cny_per_million_tokens": 1,
+    "output_cny_per_million_tokens": 3,
+    "extra_body": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  }
+]
