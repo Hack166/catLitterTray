@@ -1,0 +1,29 @@
+# Web (cat-litter-dashboard)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env.local
+.env.*.local
+.env
+.env.*
+
+# Local ML datasets and API benchmark outputs
+datasets/
+vision_benchmark_results/
+output/
+tmp/pdfs/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Hardware (Arduino/ESP-IDF)
+build/
+*.bin
+*.elf
+*.hex
+
+# OS
+.DS_Store
